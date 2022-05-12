@@ -5,71 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Code Review 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header>
-        <img id="headerlogo" src="pics/CFLOGO.png" alt="CFLOGO.png">
-        <div class="topnav">
-            <input class="searchbar" type="text" placeholder="">
-            <a class="button1" href="#">LogIn</a>
-            <a class="button2" href="#">SignUp</a>
+    <div class="header">
+        <img id="navbar-image" src="pics/CFLOGO.png" alt="CFLOGO.png">
+        <div>
+            <input class="navbar" type="text" placeholder="">
+            <a class="navbar-btns navbar-btn1" href="#">LogIn</a>
+            <a class="navbar-btns navbar-btn2" href="#">SignUp</a>
         </div>
-    </header>
-
-    <div>
-        <img id="hero" src="pics/keyboard.jpg" alt="keyboard.jpg">
-    </div>
-
-    <div class="heroline">
-        <h1>CodeFactory FSWD</h1>
-        <p id="line2">This course is specially designed to introduce you to the WebDev world.</p>
     </div>
 
     <div>
-        <img id="devices" src="pics/devices.png" alt="devices.png">
+        <img id="hero-image" src="pics/keyboard.jpg" alt="keyboard.jpg">
     </div>
 
-    <h1 id="secondh1">Course Technologies</h1>
-    <div class="columns">
+    <div class="hero">
+        <h1 class="text">CodeFactory FSWD</h1>
+        <h4 class="text">This course is specially designed to introduce you to the WebDev world.</h4>
+    </div>
+
+    <div>
+        <img id="hero-image2" src="pics/devices.png" alt="devices.png">
+    </div>
+
+    <p class="columns-headline">Course Technologies</p>
+
+    <div class="columns-container">
         <div class="column">
             <h2>Front End</h2>
             <hr>
-            <p class="para">HTML</p>
-            <p class="para">CSS</p>
-            <p class="para">JS</p>
-            <p class="para">Angular</p>
-            <button class="btn1">Click to see more</button>
+            <p class="text">HTML</p>
+            <p class="text">CSS</p>
+            <p class="text">JS</p>
+            <p class="text">Angular</p>
+            <a class="column-btns column-btn3" href="#">Click to see more</a>
         </div>
 
         <div class="column">
             <h2>Back End</h2>
             <hr>
-            <p class="para">MySQL</p>
-            <p class="para">PHP</p>
-            <p class="para">Symfony</p>
-            <button class="btn2">Click to see more</button>
+            <p class="text">MySQL</p>
+            <p class="text">PHP</p>
+            <p class="text">Symfony</p>
+            <a class="column-btns column-btn4" href="#">Click to see more</a>
         </div>
 
         <div class="column">
             <h2>Projects</h2>
             <hr>
-            <p class="para">Front End Project</p>
-            <p class="para">Full Stack Project</p>
-            <button class="btn3">Click to see more</button>
+            <p class="text">Front End Project</p>
+            <p class="text">Full Stack Project</p>
+            <a class="column-btns column-btn5" href="#">Click to see more</a>
         </div>
-    </div>
     </div>
 
     <footer>
-        <img id="footerlogo" src="pics/CFLOGO.png" alt="CFLOGO.png">
-        <p id="footerline1">AndreasPlangger - CodeFactory&copy;</p>
-        <p id="footerline2">All rigts reserved</p>
+        <img id="footer-image" src="pics/CFLOGO.png" alt="CFLOGO.png">
+        <p class="text">AndreasPlangger - CodeFactory&copy;</p>
+        <p><i>All rights reserved</i></p>
     </footer>
-    </div>
 </body>
 
 </html>

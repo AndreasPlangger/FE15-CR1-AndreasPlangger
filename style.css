@@ -1,21 +1,15 @@
 body {
-    margin:0 auto;
+    margin: 0 auto;
     background-color: rgb(26, 24, 24);
     font-family: Arial, Helvetica, sans-serif;
-    height: fit-content;
 }
-header {
+
+.header {
     background-color: black;
     height: 90px;
 }
-#headerlogo {
-    height: 50px;
-    width: auto;
-    position: absolute;
-    top: 10px;
-    left: 15px;
-}
-.searchbar {
+
+.navbar {
     padding: 6px;
     border: none;
     position: absolute;
@@ -24,12 +18,18 @@ header {
     font-size: 12px;
     width: 730px;
     border: 1px solid #ccc;
-  }  
-.button1 {
-    width: 50px;
+}
+
+#navbar-image {
+    height: 50px;
+    width: auto;
     position: absolute;
-    top:6px;
-    left:1040px;
+    top: 10px;
+    left: 15px;
+}
+
+.navbar-btns {
+    width: 50px;
     display: block;
     color: white;
     background-color: rgb(140, 24, 27);
@@ -39,66 +39,47 @@ header {
     font-size: 12px;
     font-weight: bold;
     border-radius: 13px;
-  }
-.button2 {
-    width: 50px;
     position: absolute;
     top: 6px;
+}
+
+.navbar-btn1 {
+    left: 1040px;
+}
+
+.navbar-btn2 {
     left: 1145px;
-    display: block;
-    color: white;
-    background-color: rgb(140, 24, 27);
-    text-align: center;
-    padding: 14px 18px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    border-radius: 13px;
-  }
-#hero {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center 137%;
-  }
-.heroline {
+}
+
+.hero {
     color: white;
     text-align: left;
     position: relative;
     left: 250px;
-    bottom:285px;
+    bottom: 285px;
+    margin: 0;
 }
-h1 {
-    margin:0%;
-    font-size: 1.95em;
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 137%;
 }
-#line2 {
-    margin:0;
-    font-size: 0.97em;
-    font-weight: bold;
-    position: relative;
-    left: 0px;
-    top:10px;
-}
-#devices {
-    height:70px;
-    width:102px;
+
+#hero-image2 {
+    height: 70px;
+    width: 102px;
     position: relative;
     left: 255px;
     bottom: 280px;
 }
-#secondh1 {
-    color: white;
-    position: relative;
-    left: 390px;
-    bottom: 240px;
-    font-size:3em;
-    text-shadow: 4px 4px 2px silver;
+
+.text {
+    margin: 0;
 }
-.column > p {
-    font-size:1em;
-}
-.columns {
+
+.columns-container {
     color: white;
     text-align: center;
     height: 260px;
@@ -107,62 +88,59 @@ h1 {
     bottom: 190px;
     left: 110px;
 }
+
+.columns-headline {
+    color: white;
+    position: relative;
+    left: 390px;
+    bottom: 240px;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px silver;
+}
+
 .column {
-    background-color: rgba(35,90,141);
+    background-color: rgba(35, 90, 141);
     border-radius: 15px;
     height: 210px;
     width: 310px;
     float: left;
     margin: 0 18px;
 }
-.btn1 {
-    font-size: 16;
+
+.column-btns {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 8px 4px;
     position: absolute;
     bottom: 60px;
+}
+
+.column-btn3 {
     left: 110px;
-    padding-top: 8px;
-    padding-bottom: 8px;
 }
-.btn2 {
-    font-size: 16;
-    position: absolute;
-    bottom: 60px;
+
+.column-btn4 {
     left: 460px;
-    padding-top: 8px;
-    padding-bottom: 8px;
 }
-.btn3 {
-    font-size: 16;
-    position: absolute;
-    bottom: 60px;
+
+.column-btn5 {
     left: 805px;
-    padding-top: 8px;
-    padding-bottom: 8px;
 }
+
 footer {
     background-color: black;
     position: relative;
-    bottom: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
-#footerlogo {
+
+#footer-image {
     height: 65px;
     width: auto;
     display: block;
     margin: 0 auto;
     padding: 20px;
-}
-#footerline1 {
-    color: white;
-    text-align: center;
-    margin:0;
-}
-#footerline2 {
-    color:white;
-    font-style: italic;
-    text-align: center;
-    display: block;
-}
-.para {
-    margin: 0;
-    font-size: 85%;
 }
